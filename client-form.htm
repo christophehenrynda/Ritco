@@ -16,21 +16,38 @@
                 <div class="firstname">
                     <label for="fname">First name</label>
                     <input type="text" name="fname" id="fname" class="input">
+                    <small></small>
                 </div>
                 <div class="secondname">
                     <label for="lname">Last name</label>
-                <input type="text" name="lname" id="lname" class="input">
+                    <input type="text" name="lname" id="lname" class="input">
+                    <small></small>
                 </div>
             </div>
-            <label for="telephone">Telephone number</label>
-            <input type="tel" name="telephone" id="telephone" class="input">
-            <label for="destiantion">Destination</label>
-            <input type="text" name="destination" id="From" class="input" placeholder="From">
-            <input type="text" name="destination" id="To" class="input" placeholder="To">   
-            <label for="laguage">Laguage type</label>
-            <input type="text" name="laguage" id="laguage" class="input">
-            <label for="kgs">Mass of the laguage</label>
-            <input type="text" name="kgs" id="kgs" class="input" placeholder="mass is measured in kgs">
+            <div class="input-fields">
+                <label for="telephone">Telephone number</label>
+                <input type="tel" name="telephone" id="telephone" class="input">
+                <small></small>
+            </div>
+            <div class="input-fields">
+                <label for="destiantion">Destination</label>
+                <input type="text" name="destination" id="from" class="input" placeholder="From">
+                <small></small>
+                <input type="text" name="destination" id="to" class="input" placeholder="To"> 
+                <small></small> 
+            </div>
+            <div class="input-fields">
+                <label for="laguage">Laguage type</label>
+                <input type="text" name="laguage" id="laguage" class="input">
+                <small></small>
+            </div>
+            <div class="input-fields">
+                <label for="kgs">Mass of the laguage</label>
+                <input type="text" name="kgs" id="kgs" class="input" placeholder="mass is measured in kgs">
+                <small></small>
+            </div>
+            <label for="price">Ticket price</label>
+            <input type="text" name="price" id="price" class="input" value="00000" disabled>
             <input type="button" class="submit-btn" value="Book Ticket">
         </form>
     </main>
